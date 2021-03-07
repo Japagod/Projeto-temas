@@ -1,0 +1,48 @@
+html{
+    overflow: hidden;
+}
+
+body{
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body > img {
+    height: 100%;
+    width: 100%;
+}
+
+main{
+    position: absolute;
+    height: 80vh;
+    width: 80%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: linear-gradient( to right bottom,rgba(255,255,255,0.8),rgba(255,255,255,0.3));
+    border-radius: 5px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+    display: grid;
+    grid-template-columns: 20%, 70%;
+}
+
+.section1{
+    position: absolute;
+    height: 90%;
+    width: 90%;
+    background: white;
+
+}
+
+.section2{
+    position: absolute;
+    height: 90%;
+    width: 90%;
+    background: white;
+
+}
