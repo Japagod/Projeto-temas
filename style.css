@@ -1,3 +1,4 @@
+
 html{
     overflow: hidden;
 }
@@ -22,27 +23,31 @@ main{
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    background: linear-gradient( to right bottom,rgba(255,255,255,0.8),rgba(255,255,255,0.3));
+    background-color: rgba(255, 255, 255, .15);  
+    backdrop-filter: blur(7px);
     border-radius: 5px;
     border-width: 2px;
     border-style: solid;
-    border-color: white;
+    border-color: rgb(180, 180, 180);
     display: grid;
-    grid-template-columns: 20%, 70%;
+    grid-template-columns: 30% 60%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+nav{
+    height: 80%;
+    width: 100%;
+    background: white;
+    box-shadow: -1px 1px 10px rgba(171, 171, 171);
+    border-radius: 5px;
 }
 
 .section1{
-    position: absolute;
-    height: 90%;
-    width: 90%;
+    border-radius: 5px;
+    height: 80%;
+    width:  100%;
     background: white;
-
-}
-
-.section2{
-    position: absolute;
-    height: 90%;
-    width: 90%;
-    background: white;
+    box-shadow: -1px 1px 10px rgba(171,171,171);
 
 }
