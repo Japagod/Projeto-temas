@@ -1,3 +1,6 @@
+/*  -=-=-=-=-
+     layout 
+    -=-=-=-=- */
 
 html{
     overflow: hidden;
@@ -43,11 +46,38 @@ nav{
     border-radius: 5px;
 }
 
-.section1{
+section{
     border-radius: 5px;
     height: 80%;
     width:  100%;
     background: white;
     box-shadow: -1px 1px 10px rgba(171,171,171);
+    overflow:hidden; 
+    text-align: center;
+}
 
+article{
+    margin: 20px;
+    background: #ced4da;
+    width: 80%;
+    height: 20%;
+    display: inline-block;
+}
+
+/*  -=-=-=-=-
+     Scroll 
+    -=-=-=-=- */
+
+section{
+    overflow-y: scroll;
+}
+
+::-webkit-scrollbar{
+    width: 20px;
+}
+::-webkit-scrollbar-track{
+    background-color: rgba(0, 0, 0, 0);
+}
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(to bottom, #a01a58 ,#723c70 ) ;
 }
